@@ -63,3 +63,4 @@
 /Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/obj/Debug/net9.0/AnalisisVentas.pdb
 /Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/obj/Debug/net9.0/AnalisisVentas.genruntimeconfig.cache
 /Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/obj/Debug/net9.0/ref/AnalisisVentas.dll
+/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/obj/Debug/net9.0/AnalisisVentas.sourcelink.json
