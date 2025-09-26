@@ -139,4 +139,41 @@ public static class DbLoader
             Console.WriteLine(ex.Message);
         }
     }
+
+
+    public static int InsertDataSource(string sourceType, string sourceName)
+    {
+        int sourceId = 0;
+
+        try
+        {
+            using (var conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+                using var cmd = new SqlCommand("InsertDataSource", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@SourceType", sourceType);
+                cmd.Parameters.AddWithValue("@SourceName", sourceName);
+
+                sourceId = (int)cmd.ExecuteScalar();
+            }
+            
+            Console.WriteLine("Fuentes de datos registradas en DataSource.");
+        }
+        catch (SqlException ex)
+        {
+            Console.WriteLine("Error al insertar Fuentes de datos en la base de datos:");
+            Console.WriteLine(ex.Message);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error inesperado al insertar Fuentes de Datos:");
+            Console.WriteLine(ex.Message);
+        }
+
+        return sourceId;
+    }
+
+
 }
