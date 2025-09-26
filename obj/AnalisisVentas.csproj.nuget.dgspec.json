@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/AnalisisVentas.csproj": {}
+    "/Users/wendellgonzalez/AnalisisVentas/AnalisisVentas.csproj": {}
   },
   "projects": {
-    "/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/AnalisisVentas.csproj": {
+    "/Users/wendellgonzalez/AnalisisVentas/AnalisisVentas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/AnalisisVentas.csproj",
+        "projectUniqueName": "/Users/wendellgonzalez/AnalisisVentas/AnalisisVentas.csproj",
         "projectName": "AnalisisVentas",
-        "projectPath": "/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/AnalisisVentas.csproj",
+        "projectPath": "/Users/wendellgonzalez/AnalisisVentas/AnalisisVentas.csproj",
         "packagesPath": "/Users/wendellgonzalez/.nuget/packages/",
-        "outputPath": "/Users/wendellgonzalez/Projects/Electiva/AnalisisVentas/obj/",
+        "outputPath": "/Users/wendellgonzalez/AnalisisVentas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wendellgonzalez/.nuget/NuGet/NuGet.Config"
