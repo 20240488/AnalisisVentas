@@ -158,8 +158,6 @@ public static class DbLoader
 
                 sourceId = (int)cmd.ExecuteScalar();
             }
-            
-            Console.WriteLine("Fuentes de datos registradas en DataSource.");
         }
         catch (SqlException ex)
         {
